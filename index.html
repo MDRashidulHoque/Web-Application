@@ -3,29 +3,62 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Team Homepage</title>
+  <title>Our Team Website</title>
   <link rel="stylesheet" href="css/styles.css">
+  <script defer src="js/script.js"></script>
 </head>
 <body>
-  <!-- Logo and Navigation Panel -->
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Welcome to Our Team Website</h1>
+      <p>Meet our talented team and explore our projects.</p>
+      <a href="#about" class="btn">Learn More</a>
+    </div>
+  </section>
+
+  <!-- Navigation Panel -->
   <header>
     <img src="assets/logo.png" alt="Team Logo" class="logo">
     <nav>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="team/member1.html">Member 1</a></li>
-        <li><a href="team/member2.html">Member 2</a></li>
-        <li><a href="team/member3.html">Member 3</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- Main Content -->
-  <main>
-    <h1>Welcome to Our Team Website</h1>
-    <p>We are a group of dedicated students working on exciting projects. Here you can learn more about each of us and the work we do together.</p>
-  </main>
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Our Team</h2>
+    <p>We are a group of dedicated students working on exciting projects. Learn more about each of us below.</p>
+  </section>
+
+  <!-- Team Section -->
+  <section id="team">
+    <h2>Meet the Team</h2>
+    <div class="team-members">
+      <a href="team/member1.html" class="team-card">
+        <img src="assets/headshots/member1.jpg" alt="Member 1 Headshot">
+        <h3>Member 1</h3>
+      </a>
+      <a href="team/member2.html" class="team-card">
+        <img src="assets/headshots/member2.jpg" alt="Member 2 Headshot">
+        <h3>Member 2</h3>
+      </a>
+      <a href="team/member3.html" class="team-card">
+        <img src="assets/headshots/member3.jpg" alt="Member 3 Headshot">
+        <h3>Member 3</h3>
+      </a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>If you have any questions, feel free to reach out to us at: <a href="mailto:team@example.com">team@example.com</a></p>
+  </section>
 
   <!-- Footer -->
   <footer>
@@ -33,4 +66,3 @@
   </footer>
 </body>
 </html>
-
