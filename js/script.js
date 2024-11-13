@@ -1,5 +1,4 @@
-// Example: Simple alert message on the homepage
+// Script for alerting user on page load
 document.addEventListener("DOMContentLoaded", () => {
-  alert("Welcome to Our Team Website!");
+  console.log("Welcome to Our Team Website!");
 });
-
