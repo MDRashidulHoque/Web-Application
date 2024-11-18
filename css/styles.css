@@ -1,0 +1,149 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #121212; /* Dark background */
+  color: #e0e0e0; /* Light text color */
+  scroll-behavior: smooth;
+}
+
+/* Header Styles */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #1a1a1a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  z-index: 1000;
+}
+
+.logo {
+  height: 40px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #39ff14; /* Neon green */
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #00ffcc; /* Neon blue */
+}
+
+/* Hero Section */
+#hero {
+  height: 100vh;
+  background: linear-gradient(145deg, #0f0f0f, #1a1a1a);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #39ff14;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #39ff14;
+  color: #121212;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #00ffcc;
+}
+
+/* About and Team Sections */
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#about h2, #team h2, #contact h2 {
+  color: #39ff14;
+  margin-bottom: 20px;
+}
+
+.team-card {
+  display: inline-block;
+  margin: 20px;
+  color: #e0e0e0;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.team-card:hover {
+  transform: scale(1.05);
+}
+
+.team-card img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border: 2px solid #39ff14;
+}
+
+/* Contact Section */
+#contact a {
+  color: #39ff14;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  color: #00ffcc;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+  text-align: center;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
