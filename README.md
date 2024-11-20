@@ -22,6 +22,6 @@ This Project is a Web-Application helping create a portfolio for the members of 
 Step-by-step instructions to set up the project on a local machine:-
 1. Clone the repository:
 	bash
-	git clone https://github/MDRashidullHoque/Web-Application.git
+	git clone https://github.com/MDRashidulHoque/Web-Application
 
 2. Navigate to the project directory:
