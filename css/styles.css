@@ -104,9 +104,7 @@ section {
 .team-card {
   display: inline-block;
   margin: 20px;
-  color: #e0e0e0;
   text-align: center;
-  transition: transform 0.3s;
 }
 
 .team-card:hover {
