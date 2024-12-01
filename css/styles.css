@@ -138,6 +138,16 @@ footer {
   text-align: center;
 }
 
+/* Headshot Styling */
+.headshot {
+  width: 200px; /* Adjust this value for the desired width */
+  height: auto; /* Maintains aspect ratio */
+  border-radius: 50%; /* Makes the image circular */
+  border: 2px solid #39ff14; /* Optional: Adds a border */
+  margin: 20px auto; /* Centers the image */
+  display: block; /* Ensures it's treated as a block-level element */
+}
+
 /* Animations */
 @keyframes fadeIn {
   from {
